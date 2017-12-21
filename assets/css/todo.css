@@ -17,7 +17,7 @@ body {
 
 /* Container */
 #container {
-    width: 400px;
+    width: 360px;
     background-color: #fff;
     margin: 10% auto 0;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1); /* This is better than lame border */
@@ -71,7 +71,6 @@ ul {
 
 li {
     background-color: #fff;
-    height: 40px;
     line-height: 40px;
     color: #333;
 }
@@ -92,11 +91,13 @@ li:nth-child(2n) {
     display: inline-block;
     margin-right: 20px;
     transition: 0.25s linear;
+    opacity: 0.0;
 }
 
 li:hover .del, li:focus .del {
     width: 40px;
     cursor: pointer;
+    opacity: 1.0;
 }
 /* */
 
